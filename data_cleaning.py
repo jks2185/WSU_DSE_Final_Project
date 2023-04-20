@@ -7,7 +7,7 @@ import seaborn as sns
 
 
 def get_data() -> pd.DataFrame:
-    path = r'C:\Users\e707088\Downloads'
+    path = r'https://storage.googleapis.com/eg3311/'
     file_name = 'Customer Sentiment Data.csv'
     data = os.path.join(path, file_name)
     return pd.read_csv(data)
@@ -26,7 +26,3 @@ def remove_value(df:pd.DataFrame, value:str, column:str) -> pd.DataFrame:
 
 def main():
     pass
-
-
-if '__name__' == '__main__':
-    main()
