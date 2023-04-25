@@ -291,6 +291,8 @@ def display_page(x, groupby, tab):
                 ),
                 html.P('Here we can see that there isnt much of a pattern for the model to follow as far as making predictions accurately. In the future, I would use more dimensions for this model since only having a couple did not create \
                        a viable model.'),
+                html.P('In conclusion, we see that a various amount of factors affect sentiments and inflation. Whether its marital status, income, or education, a wide array of demographics will affect peoples outlook on where the economy is going, \
+                       there buying attitudes towards the economy. The various prices of things and inflation will also affect this, as people will be less likely to go out and spend money that they do not have when things cost more.')
                 ])
         return layout
 
